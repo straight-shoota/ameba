@@ -11,8 +11,7 @@ targets:
     main: src/cli.cr
 
 scripts:
-  postinstall: make bin
+  postinstall: make build
 
-# https://github.com/crystal-lang/shards/pull/126
 executables:
   - ameba
